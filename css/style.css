@@ -1,3 +1,9 @@
+/*========================================
+
+Universal Styling
+
+======================================*/
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +24,7 @@ body {
     padding: 5px;
 }
 
+/* Header / top navigation bar */
 header {
     background: #fccb06;
     border-bottom: 1px solid #c0c0c0;
@@ -56,14 +63,7 @@ header {
 
 }
 
-.content>aside {
-    max-width: fit-content;
-    height: fit-content;
-    background: white;
-    margin: 20px;
-    padding: 5px 5px;
-    align-items: center;
-}
+
 
 nav a {
     color: #222e50;
@@ -118,6 +118,19 @@ img {
     float: left;
     padding: 5px;
 }
+
+/* Sidebar */
+
+.content>aside {
+    max-width: fit-content;
+    height: fit-content;
+    background: white;
+    margin: 20px;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+/* Footer */
 
 footer {
     margin-top: auto;
