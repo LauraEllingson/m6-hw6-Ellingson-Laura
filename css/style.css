@@ -24,7 +24,6 @@ body {
     padding: 5px;
 }
 
-/* Header / top navigation bar */
 header {
     background: #fccb06;
     border-bottom: 1px solid #c0c0c0;
@@ -54,7 +53,7 @@ header {
 
 }
 
-.content> main {
+.content>main {
     max-width: 60%;
     flex-grow: 8;
     background: white;
