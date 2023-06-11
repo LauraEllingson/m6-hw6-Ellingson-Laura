@@ -33,13 +33,13 @@ header {
 .navbar {
     display: flex;
     align-items: stretch;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-.navbar> h1 {
+.navbar>h1 {
     flex-grow: 1;
     text-align: left;
-    color:#222e50 ;
+    color: #222e50;
 }
 
 .navbar>nav {
@@ -50,16 +50,16 @@ header {
 .content {
     display: flex;
     align-items: stretch;
-    padding: 30px 0;
+    padding: 40px 0;
 
 }
 
-.content>main {
+.content> main {
     max-width: 60%;
     flex-grow: 8;
     background: white;
     margin: 20px;
-    padding: 5px 5px;
+    padding: 10px 10px;
 
 }
 
@@ -88,7 +88,7 @@ h2,
 h3,
 a {
     font-family: Georgia, 'Times New Roman', Times, serif;
-color: #222e50;
+    color: #222e50;
 }
 
 h1 {
@@ -110,8 +110,9 @@ h3 {
 p {
     color: #222e50;
     font-size: 10;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    font-family: 'Times New Roman';
+    line-height: 140%;
+    margin: 10px;
 }
 
 img {
@@ -134,7 +135,7 @@ img {
 
 footer {
     margin-top: auto;
-    background:#fccb06;
+    background: #fccb06;
     border-top: 1px solid #c0c0c0;
     padding: 10px;
 }
