@@ -9,7 +9,7 @@ Universal Styling
 }
 
 body {
-    background: url(/assets/pat.png);
+    background: url(assets/pat.png);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
